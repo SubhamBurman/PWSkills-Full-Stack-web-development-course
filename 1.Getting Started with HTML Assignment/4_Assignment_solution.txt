@@ -1,0 +1,15 @@
+Question 4:
+Write a short note on tags and elements with an example.
+
+Solution4: 
+HTML tags are used to create HTML elements, such as paragraphs or links. 
+HTML tags are made up of an opening bracket, the element's name, and a closing bracket. 
+Example: <p>...</p>
+
+HTML elements are made up of a starting tag, content, and an end tag. 
+For example, <p>This is html element</p>
+A paragraph element has a <p> tag, followed by the paragraph 
+text, and a closing </p> tag. 
+
+Some elements don't have a closing tag and are called empty elements.
+
