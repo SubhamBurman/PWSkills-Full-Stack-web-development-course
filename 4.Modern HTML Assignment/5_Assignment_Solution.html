@@ -1,0 +1,85 @@
+<!--
+    Question 5 : Create a web page that highlights the feature of HTML5. Use appropriate 
+    semantic tag to structure the content and showcase at least three key features of 
+    HTML5 with explanation.
+-->
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Question 5</title>
+</head>
+<body>
+    <header>
+        <h1>Features of HTML5</h1>
+    </header>
+
+    <section>
+        <h2>Feature 1 : Intro of audio and video</h2>
+        <p>
+        <code>&lt;Audio&gt;</code> and <code>&lt;Video&gt;</code> tags are the two major addition to HTML5. It allows
+        developers to embed a video or audio on their website. HTML5 video can use
+        CSS and CSS3 to style the video tag. You can change the border, opacity, 
+        reflections, gradients, transitions, transformations, and even animations. 
+        HTML5 makes adding video super-fast and without having to build a video player. 
+        This saves time for the developer and offers the client a superior and more 
+        affordable solution.
+        </p>
+        <h3>Example -</h3>
+        <video  width = "300" height = "200" controls autoplay> 
+            <source src = "/html5/foo.ogg" type ="video/ogg" /> 
+            <source src = "/html5/foo.mp4" type = "video/mp4" /> 
+             Your browser does not support the video element. 
+        </video> 
+         
+        <audio controls autoplay> 
+            <source src = "/html5/audio.ogg" type = "audio/ogg" /> 
+            <source src = "/html5/audio.wav" type = "audio/wav" /> 
+             Your browser does not support the audio element. 
+        </audio>
+    </section>
+
+    <section>
+        <h2>Feature 2 : Placeholder Attribute</h2>
+        <p>
+        The placeholder attribute specifies a short hint that describes the expected 
+        value of an input field/text area. The short hint is displayed in the field 
+        before the user enters a value.
+        </p>
+        <h3>Example -</h3>
+        <form action=" ">  
+            <input type="text" name="fname"
+                            placeholder="First name">  
+            <br>  
+            <input type="text" name="lname"
+                            placeholder="Last name">  
+            <br>  
+            <input type="submit" value="Submit">  
+        </form>  
+    </section>
+
+    <section>
+        <h2>Feature 3 : Sementic Tags</h2>
+        <p>
+            HTML5 introduced semantic tags like <code>&lt;header&gt;</code>,
+            <code>&lt;nav&gt;</code>, <code>&lt;main&gt;</code>, and more, which
+            improve page structure and accessibility.
+        </p>
+        <article>
+            <h3>Article Title</h3>
+            <p>
+            This is a sample article content. Semantic tags make it easier to
+            structure your content and improve search engine optimization.
+            </p>
+            </article>
+    </section>
+
+    <footer>
+        <p>Created by Subham Burman &copy; 2023</p>
+        </footer>
+    
+
+</body>
+</html>

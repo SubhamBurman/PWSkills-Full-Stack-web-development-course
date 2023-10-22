@@ -1,0 +1,32 @@
+Question 4 : List any 3 ways which help us in improving the accessibility in HTML.
+
+Solution: 3 ways which can help us in improving the accessibility in HTML are:
+1. Image alternative text - Add descriptive alternative text (alt text) to all images using the alt attribute
+Example -  <img src="Solarsystemimage.jpeg" alt="Solar System Image"width="200" height="200" />
+
+2. Making links descriptive - to make a link descriptive in HTML, meaning full and 
+descriptive text in the anchor <a> element should be used.
+Example - 
+<p>
+Check out our latest blog post about
+<a href="https://www.blogpw.com/latest-blog"
+title="Read the latest blog post">web-development</a>
+</p>
+
+3. Accessibility in Form - use of <label> tag or aria-label attribute and Form fields 
+should be properly grouped with <fieldset> and <legend> elements.
+Example - 
+<form action="/">
+<fieldset>
+<legend>Personal Form Details</legend>
+<label for="fname">First name:</label>
+<input type="text" id="fname" name="fname" /><br /><br />
+<label for="lname">Last name:</label>
+<input type="text" id="lname" name="lname" /><br /><br />
+<label for="email">Email:</label>
+<input type="email" id="email" name="email" /><br /><br />
+<label for="birthday">Birthday:</label>
+<input type="date" id="birthday" name="birthday" /><br /><br />
+<input type="submit" value="Submit" ariarlabel="Submit form" />
+</fieldset>
+</form>

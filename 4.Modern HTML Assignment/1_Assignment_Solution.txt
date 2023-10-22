@@ -1,0 +1,19 @@
+Question 1 : List out the features of html5.
+
+Solution : HTML5 has emphasized its support for responsiveness, graphics, 
+and rendering multimedia elements without having to rely upon any external content 
+player like Adobe Flash Player. 
+Here’s the list of some key features of HTML5:
+
+1.Semantic Elements
+2.Audio and Video Support
+3.Canvas Elements
+4.Geolocation API
+5.Local Storage
+6.Responsive Images
+7.Web Workers
+8.Drag and Drop API
+9.Form Enhancements
+10.Web Sockets
+11.Micro Data
+12.Cross Document Messaging

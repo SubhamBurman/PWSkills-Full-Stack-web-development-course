@@ -1,0 +1,28 @@
+Question 3: Define Accessiblity in context of web development. 
+Discuss why its essential to create accessiable website and how it benefits different 
+user group?
+
+Solution : Accessiblity in HTML refers to the practice of designing and coding web 
+content in a way that ensures it can be easily accessed, understood and intracted with 
+by people with diverse abilities including those with disabilities. that include using 
+sementic markup, providing alternative text for images and videos, and making sure your 
+web pages are navigable using a keyboard.
+
+It is crucial for websites to be accessible to all users, including those with 
+disabilities of all kinds. It allows them access to the same information and services 
+that are available to everyone and includes things like news articles, online shopping, 
+online banking, government services and more.
+
+Benefits for User Groups:
+1.Visual Impairments: Accessibility provides screen reader support and text alternatives,
+aiding blind and visually impaired users.
+2.Hearing Impairments: Captions and transcripts benefit those with hearing impairments 
+by making audio content understandable.
+3.Motor Disabilities: Keyboard navigation and easy-to-click elements assist users with 
+motor limitations.
+4.Cognitive Disabilities: Accessible design simplifies content and layout, aiding 
+individuals with cognitive challenges.
+5.Elderly Users: Accessible websites accommodate age-related limitations, ensuring 
+usability for elderly users.
+6.Mobile Users: Accessible design improves mobile experiences through simplified and 
+responsive layouts
