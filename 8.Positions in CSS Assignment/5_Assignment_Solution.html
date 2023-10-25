@@ -1,0 +1,54 @@
+<!--
+    Question 1 :Explain the z-index, with a code example.
+-->
+
+<!--
+    Solution : The z-index property in CSS is used to control the stacking order of positioned elements, primarily those with a
+position value of absolute, relative, fixed, or sticky. It determines the order in which elements are stacked on top
+of each other along the z-axis, creating a 3D-like effect even though web pages are inherently 2D.
+-->
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Question 5</title>
+    <style>
+        .box{
+            width: 50px;
+            height: 50px;
+            background-color: aqua;
+            border: 1px solid yellow;
+            text-align: center;
+            position: absolute;
+        }
+        .box_a{
+            left: 20px;
+            top: 20px;
+        }
+        /* In box b i am using z-indez to move it on top */
+        .box_b{
+            left: 40px;
+            top: 40px;
+            z-index: 1;
+        }
+        .box_c{
+            left: 60px;
+            top: 60px;
+        }
+        .box_d{
+            left: 80px;
+            top: 80px;
+        }
+    </style>
+</head>
+<body>
+    <div class="container">
+        <div class="box box_a"><p>A</p></div>
+        <div class="box box_b"><p>B</p></div>
+        <div class="box box_c"><p>C</p></div>
+        <div class="box box_d"><p>D</p></div>
+    </div>
+</body>
+</html>

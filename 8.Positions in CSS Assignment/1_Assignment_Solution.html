@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Question 1</title>
+    <style>
+        .box{
+            width: 50px;
+            height: 50px;
+            background-color: aqua;
+            border: 1px solid yellow;
+            text-align: center;
+        }
+        
+        .box_a{
+            position: relative;
+            left: 200px;
+            top: 200px;
+        }
+        .box_b{
+            position: absolute;
+            left: -30px;
+            top: -30px;
+        }
+        .box_c{
+            position: absolute;
+            right: -30px;
+            top: -30px;
+        }
+        .box_d{
+            position: absolute;
+            left: -30px;
+            bottom: -30px;
+        }
+        .box_e{
+            position: absolute;
+            right: -30px;
+            bottom: -30px;
+        }
+    </style>
+</head>
+<body>
+    <div class="box box_a">
+        <p>A</p>
+        <div class="box box_b"><p>B</p></div>
+        <div class="box box_c"><p>C</p></div>
+        <div class="box box_d"><p>D</p></div>
+        <div class="box box_e"><p>E</p></div>
+    </div>
+</body>
+</html>

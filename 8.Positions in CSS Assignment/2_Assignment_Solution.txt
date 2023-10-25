@@ -1,0 +1,5 @@
+Question 2 : Explain the difference between Absolute and Relative positioning.
+
+Solution : position: relative places an element relative to its current position 
+without changing the layout around it, whereas position: absolute places an element 
+relative to its parent’s position and changing the layout around it.
