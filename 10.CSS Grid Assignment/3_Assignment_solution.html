@@ -1,0 +1,40 @@
+<!-- 
+    Question 3 - Explain the use of grid-auto-row and grid-auto-column using code examples.
+
+    Solution -The grid-auto-rows property sets a size for the rows in a grid container. 
+    This property affects only rows with the size not set. 
+    Similar to grig-auto-row, grid-auto-columns property sets a size for the columns in a grid container. 
+    This property affects only columns with the size not set.
+
+    Code example -
+-->
+
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>question 3</title>
+    <style>
+    .grid {
+       width: 200px;
+       display: grid;
+       grid-template-areas: "a a";
+       gap: 10px;
+       grid-auto-rows: 100px;
+     }
+
+     .grid > div {
+       background-color: lime;
+}     
+    </style>
+</head>
+<body>
+    <div class="grid">
+        <div id="item1"></div>
+        <div id="item2"></div>
+        <div id="item3"></div>
+      </div>
+</body>
+</html>

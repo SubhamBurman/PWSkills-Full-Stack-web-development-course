@@ -1,0 +1,60 @@
+<!-- 
+    Question 5 :Explain the difference between justify-items and justify-self using code examples.
+
+    Answer : justify-items allows you to set a default position for content placed in the 
+             grid's grid items. This is a property of the grid container.
+
+             justify-self allows you to override the default position of content in an 
+             individual cell. This will override the position set by justify-items. 
+             Hence, if you use justify-self on all children of the container, 
+             setting justify-items on the grid container will have no effect. 
+             This is a property of the content inside a grid item
+ -->
+
+
+ <!DOCTYPE html>
+<html>
+<head>
+<style> 
+#container {
+  width: 50%;
+  border: 1px solid black;
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  justify-items: center;
+}
+
+#container div {
+  border: 1px solid black;
+}
+
+.blue {
+  background-color: lightblue;
+  width: 50%;
+  justify-self: right;
+}
+
+.red {
+  background-color: coral;
+  width: 40%;
+}
+
+.green {
+  background-color: lightgreen;
+  width: 60%;
+}
+</style>
+</head>
+<body>
+
+<h2>justify-items vs. justify-self</h2>
+
+<div id="container">
+  <div class="red">RED</div>
+  <div class="blue">BLUE</div>
+  <div class="green">GREEN</div>
+  <div class="red">RED</div>
+</div>
+
+</body>
+</html>
