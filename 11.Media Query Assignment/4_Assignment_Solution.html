@@ -1,0 +1,63 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Question 4</title>
+    <style>
+        .container{
+            display: grid;
+            grid-template-columns: repeat(3, 1fr);
+            gap: 10px;
+            
+
+        }
+        .box{
+            width: 400px;
+            height: 100px;
+            display: grid;
+            justify-items: center;
+            
+        }
+        .box1{
+            background-color: red;
+            
+        }
+        .box2{
+            background-color: green;
+        }
+        .box3{
+            background-color: blue;
+        }
+        .box4{
+            background-color: orange;
+        }
+
+        @media screen and (max-width: 800px) {
+            .container{
+            grid-template-columns: repeat(2, 1fr);
+            
+
+        }
+        }
+
+        @media screen and (max-width: 400px) {
+            .container{
+            grid-template-columns: repeat(1, 1fr);
+         
+            
+
+        }
+        }
+
+    </style>
+</head>
+<body>
+    <div class="container">
+        <div class="box box1">Box1</div>
+        <div class="box box2">Box2</div>
+        <div class="box box3">Box3</div>
+        <div class="box box4">Box4</div>
+    </div>
+</body>
+</html>

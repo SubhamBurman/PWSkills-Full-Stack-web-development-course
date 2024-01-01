@@ -1,0 +1,34 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Question 2</title>
+    <style>
+        .images{
+            display: grid;
+            justify-items: center;
+            grid-template-columns: repeat(3, 1fr);
+            gap: 10px;
+        }
+
+        @media screen and (max-width: 800px) {
+            .images{
+                grid-template-columns: repeat(2, 1fr);
+            }
+        }
+        @media screen and (max-width: 500px) {
+            .images{
+                grid-template-columns: repeat(1, 1fr);
+            }
+        }
+    </style>
+</head>
+<body>
+    <div class="images">
+        <img src="https://fastly.picsum.photos/id/1003/200/300.jpg?hmac=EyW0hjzA-KJ6r3bbEy9Ufw2Y2SeTmRSnusDY_g2czPg" alt="Random Image">
+        <img src="https://fastly.picsum.photos/id/1003/200/300.jpg?hmac=EyW0hjzA-KJ6r3bbEy9Ufw2Y2SeTmRSnusDY_g2czPg" alt="Random Image">
+        <img src="https://fastly.picsum.photos/id/1003/200/300.jpg?hmac=EyW0hjzA-KJ6r3bbEy9Ufw2Y2SeTmRSnusDY_g2czPg" alt="Random Image">
+    </div>
+</body>
+</html>

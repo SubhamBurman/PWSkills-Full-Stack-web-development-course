@@ -1,0 +1,77 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>question 5</title>
+    <style>
+        *{
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+        }
+
+        .container{
+            height: 100vh;
+            display: flex;
+            text-align: center;
+            color: white;
+
+        }
+        .box1{
+            width: 10%;
+            height: 100%;
+            padding: 20px;
+            background-color: gray;
+        }
+        .middle_box{
+            width: 80%;
+            height: 100%;
+            display: flex;
+            flex-direction: column;
+        }
+        .middle_box .box2{
+            height: 50%;
+            padding: 20px;
+            background-color: seagreen;
+        }
+        .middle_box .box3{
+            height: 50%;
+            padding: 20px;
+            background-color: orange;
+        }
+        .box4{
+            width: 10%;
+            height: 100%;
+            padding: 20px;
+            background-color: gray;
+        }
+
+        @media screen and (max-width: 550px) {
+            .container{
+                flex-direction: column;
+            }
+
+            .box{
+                width: 100%;
+                height: 50px;
+            }
+            .box4{
+                position: fixed;
+                bottom: 0px;
+            }
+
+        }
+    </style>
+</head>
+<body>
+    <div class="container">
+        <div class="box box1">Box1</div>
+        <div class="box middle_box">
+            <div class="box2">Box2</div>
+            <div class="box3">Box3</div>
+        </div>
+        <div class="box box4">Box4</div>
+    </div>
+</body>
+</html>
