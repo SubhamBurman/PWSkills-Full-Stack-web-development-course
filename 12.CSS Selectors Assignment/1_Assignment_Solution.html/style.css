@@ -1,0 +1,30 @@
+nav .head{
+    color: red;
+}
+
+nav a{
+    color: red;
+    text-decoration: none;
+}
+
+nav .Active{
+    color: blue;
+    text-decoration: underline;
+
+}
+a[target="_self"]{
+    background-color: gray;
+}
+
+p:last-child::after{
+    content: "...";
+}
+
+li::marker{
+    color: green;
+}
+
+.paragraph::first-letter{
+    color: red;
+    font-size: 40px;
+}
