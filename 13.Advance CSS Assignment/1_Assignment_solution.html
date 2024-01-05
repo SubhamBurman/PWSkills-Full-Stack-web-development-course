@@ -1,0 +1,36 @@
+<!-- 
+    The var() function in CSS is a function that is used to define and use custom CSS variables, also known as CSS
+    custom properties, CSS variables allow us to store and reuse values throughout the stylesheet, making it easier
+    to maintain and update styles throughout the project. 
+-->
+
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Question 1</title>
+    <style>
+        :root{
+            --primarycolor: #00b7ff;
+            --secondarycolor: #6c757d;
+        }
+        #primaryBtn{
+            background-color: var(--primarycolor);
+        }
+        #secondaryBtn{
+            background-color: var(--secondarycolor);
+        }
+        button{
+            border: none;
+            color: white;
+            padding: 5px;
+        }
+    </style>
+</head>
+<body>
+    <button id="primaryBtn">primary Button</button>
+    <button id="secondaryBtn">secondary Button</button>
+</body>
+</html>
