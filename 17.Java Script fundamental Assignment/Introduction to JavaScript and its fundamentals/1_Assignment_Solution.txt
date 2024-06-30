@@ -1,0 +1,8 @@
+Question 1: Explain what JavaScript is and its role in web development.
+
+Answer: JavaScript is a versatile programming language primarily used in web development. 
+It was initially created to make web pages more interactive and dynamic.
+JavaScript plays a crucial role in modern web development by enabling interactive and 
+dynamic features that enhance the user experience. Its versatility and widespread 
+adoption make it a cornerstone of front-end development, and its expansion into the 
+backend with Node.js further extends its utility in full-stack web development.

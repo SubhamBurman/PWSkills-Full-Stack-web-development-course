@@ -1,0 +1,13 @@
+Question 2: Explain the key differences between JavaScript and HTML. Provide examples of situations where
+you would use each.
+
+Answer: JavaScript:
+        1.Purpose: JavaScript is a scripting language used for creating interactive and dynamic elements on web pages.
+        2.Execution: It runs on the client-side (in the user's browser).
+Examples of Use: 1.Form Validation, 2.Interactive Elements, 3.Asynchronous Requests.
+
+        HTML:
+        1.Purpose: HTML (HyperText Markup Language) is used for structuring and presenting content on web pages.
+        2.Execution: It is a markup language interpreted by the browser to display content.
+Examples of Use: 1.Creating Structure, 2.Adding Media, 3.Semantic Markup.
+

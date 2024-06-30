@@ -1,0 +1,38 @@
+Question 3: List and describe the five primitive data types in JavaScript.
+
+Answer: In JavaScript, there are five primitive data types. These are basic data types 
+that are not objects and do not have methods. Here's a list and description of each 
+primitive data type:
+
+1. Number: Represents numeric data, both integers and floating-point numbers.
+Examples, 
+let count = 10;        // Integer
+let price = 99.99;     // Floating-point number
+
+2. String: Represents textual data, enclosed within single quotes ('') or double quotes ("").
+Examples,
+let message = 'Hello, World!';
+let name = "Alice";
+
+3. Boolean: Represents a logical entity that can have two values: true or false.
+Used in conditional expressions and logical operations.
+Examples,
+let isOpen = true;
+let isFound = false;
+
+4.Undefined: Represents a variable that has been declared but has not been assigned a value yet.
+When a variable is declared without initialization, it is automatically assigned the value undefined.
+Example: 
+let x;
+console.log(x);   // Output: undefined
+
+5.Null: Represents the intentional absence of any object value.
+It is often used to explicitly state that a variable has no value.
+Example: 
+let data = null;
+
+
+These primitive data types in JavaScript are immutable, meaning their values cannot be 
+changed. Operations on primitive data types result in new primitive values rather than 
+altering the original values directly. They are stored directly in the allocated memory 
+space, which makes them more efficient in terms of memory usage compared to objects.

@@ -1,0 +1,97 @@
+Q2. Describe the categorization of operators in JavaScript based on their functionality. Provide examples for
+each category.
+
+
+solution :Operators in JavaScript can be categorized based on their functionality into several groups. Here's an overview of these categories along with examples for each:
+
+1. Arithmetic Operators
+Arithmetic operators perform mathematical calculations on numeric values.
+
+Examples:
+let a = 10;
+let b = 5;
+
+// Addition
+let sum = a + b;  // 15
+
+
+2. Comparison Operators
+Comparison operators compare two values and return a Boolean result (true or false).
+
+Examples:
+let x = 10;
+let y = 5;
+
+// Equal to
+console.log(x == y);  // false
+
+// Not equal to
+console.log(x != y);  // true
+
+
+Logical Operators
+Logical operators are used to combine or manipulate Boolean values.
+
+Examples:
+let p = true;
+let q = false;
+
+// Logical AND
+console.log(p && q);  // false
+
+// Logical OR
+console.log(p || q);  // true
+
+// Logical NOT
+console.log(!p);      // false
+
+
+Assignment Operators
+Assignment operators assign values to variables.
+
+Examples:
+let num = 10;
+
+// Simple assignment
+num = 5;  // num now equals 5
+
+// Addition assignment
+num += 3;  // num now equals 8
+
+// Subtraction assignment
+num -= 2;  // num now equals 6
+
+// Multiplication assignment
+num *= 4;  // num now equals 24
+
+// Division assignment
+num /= 3;  // num now equals 8
+
+
+ Bitwise Operators
+Bitwise operators manipulate bits of numbers at the binary level.
+
+Examples:
+let a = 5;   // Binary: 101
+let b = 3;   // Binary: 011
+
+// Bitwise AND
+let resultAnd = a & b;   // Binary: 001 (Decimal: 1)
+
+// Bitwise OR
+let resultOr = a | b;    // Binary: 111 (Decimal: 7)
+
+// Bitwise XOR
+let resultXor = a ^ b;   // Binary: 110 (Decimal: 6)
+
+// Bitwise NOT
+let resultNot = ~a;      // Binary: 11111111111111111111111111111010 (Decimal: -6 in 32-bit representation)
+
+// Left shift
+let leftShift = a << 1;  // Binary: 1010 (Decimal: 10)
+
+// Right shift
+let rightShift = a >> 1; // Binary: 10 (Decimal: 2)
+
+// Zero-fill right shift
+let zeroFillShift = a >>> 1;  // Binary: 10 (Decimal: 2)
